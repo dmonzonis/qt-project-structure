@@ -1,5 +1,6 @@
 TEMPLATE = subdirs
-CONFIG+=ordered
+CONFIG += ordered
+CONFIG += qtestlib
 SUBDIRS = \
     src \
     app \

@@ -2,10 +2,12 @@ include(../defaults.pri)
 
 CONFIG += console
 CONFIG -= app_bundle
-CONFIG -= qt
+#CONFIG -= qt
+CONFIG  += qtestlib
 
 TEMPLATE = app
 
-SOURCES += main.cpp
+HEADERS += frist.h
+SOURCES += frist.cpp
 
-LIBS += -lunittest++ -L../src -lmyapp
+LIBS += -L../src -lmyapp

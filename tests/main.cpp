@@ -1,12 +1,8 @@
-#include <unittest++/UnitTest++.h>
-#include <myclass.h>
+ #include <QtTest/QtTest>
 
-TEST(MyMath) {
-    MyClass my;
-    CHECK(my.addition(3,4) == 7);
-}
-
-int main()
-{
-    return UnitTest::RunAllTests();
-}
+ class TestQString: public QObject
+ {
+     Q_OBJECT
+ private slots:
+     void toUpper();
+ };

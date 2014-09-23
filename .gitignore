@@ -11,3 +11,9 @@
 *.lai
 *.la
 *.a
+
+
+/src/libmyapp.so.1
+/src/libmyapp.so.1.0
+/src/libmyapp.so.1.0.0
+/tests/moc_frist.cpp
