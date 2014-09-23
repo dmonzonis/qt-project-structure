@@ -1,6 +1,8 @@
 TEMPLATE = subdirs
 CONFIG += ordered
 CONFIG += qtestlib
+
+
 SUBDIRS = \
     src \
     app \
@@ -11,3 +13,7 @@ tests.depends = src
 
 OTHER_FILES += \
     defaults.pri
+
+
+
+ 

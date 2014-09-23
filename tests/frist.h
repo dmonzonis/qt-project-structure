@@ -5,5 +5,6 @@ class frist: public QObject
     Q_OBJECT
 private slots:
     void toUpper();
+    void linked_test();
 };
 
