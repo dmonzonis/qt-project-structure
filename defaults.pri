@@ -10,4 +10,3 @@ MOC_DIR = $$DESTDIR/.moc
 RCC_DIR = $$DESTDIR/.qrc
 UI_DIR = $$DESTDIR/.ui 
 
-LIBS += -L$$DESTDIR -lmyapp

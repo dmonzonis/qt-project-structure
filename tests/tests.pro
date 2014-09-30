@@ -7,6 +7,7 @@ CONFIG += testcase
 
 TEMPLATE = app
 
-HEADERS += frist.h
-SOURCES += frist.cpp
+HEADERS += test_sm.h
+SOURCES += test_sm.cpp
 
+LIBS += -L$$DESTDIR -lmyapp
