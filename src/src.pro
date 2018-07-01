@@ -11,9 +11,9 @@ SUBDIRS += ui
 FORMS += ui/*.ui
 SOURCES += \
     myclass.cpp \
-    puterstatemachine.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    randomobject.cpp
 HEADERS += \
     myclass.h \
-    puterstatemachine.h \
-    mainwindow.h
+    mainwindow.h \
+    randomobject.h

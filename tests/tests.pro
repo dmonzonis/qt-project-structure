@@ -1,10 +1,5 @@
-include(../defaults.pri)
+TEMPLATE = subdirs
 
-QT += testlib
-
-TEMPLATE = app
-
-HEADERS += test_sm.h
-SOURCES += test_sm.cpp
-
-LIBS += -L$$DESTDIR -lmyapp
+SUBDIRS += \
+    test1 \
+    test2

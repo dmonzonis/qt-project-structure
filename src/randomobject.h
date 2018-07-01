@@ -3,11 +3,11 @@
 
 #include <QtCore>
 
-class PuterStatMachine : public QStateMachine {
+class RandomObject : public QObject {
     Q_OBJECT
 public:
-    PuterStatMachine() : QStateMachine() {};
-    
+    RandomObject() : QObject(nullptr) {};
+    virtual ~RandomObject() {};
 };
 
 #endif /* !PUTERSTATEMACHINE_H_ */
