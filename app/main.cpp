@@ -1,11 +1,15 @@
-#include <iostream>
-#include <myclass.h>
+#include <QApplication>
+
+#include "mainwindow.h"
 
 using namespace std;
 
-int main()
+int main(int argc, char* argv[])
 {
-    MyClass adder;
-    cout << adder.addition(10, 20) << endl;
-    return 0;
+    QApplication app(argc, argv);
+    QMainWindow *window = new MainWindow;
+
+    window->show();
+
+    return app.exec();
 }

@@ -1,10 +1,19 @@
 include(../defaults.pri)
 
 QT += core gui
+QT += widgets
 
 TEMPLATE = lib
 
 TARGET = myapp
+SUBDIRS += ui
 
-SOURCES += myclass.cpp puterstatemachine.cpp
-HEADERS += myclass.h puterstatemachine.h
+FORMS += ui/*.ui
+SOURCES += \
+    myclass.cpp \
+    puterstatemachine.cpp \
+    mainwindow.cpp
+HEADERS += \
+    myclass.h \
+    puterstatemachine.h \
+    mainwindow.h

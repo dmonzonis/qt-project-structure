@@ -1,6 +1,7 @@
 include(../defaults.pri)
 
 QT += core gui
+QT += widgets
 
 TEMPLATE = app
 
