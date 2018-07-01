@@ -1,12 +1,9 @@
 INCLUDEPATH += $$PWD/src
 SRC_DIR = $$PWD
 
+DESTDIR = $$PWD/build
 
-release: DESTDIR = $$PWD/build/release
-debug:   DESTDIR = $$PWD/build/debug
-
-OBJECTS_DIR = $$DESTDIR/.obj
-MOC_DIR = $$DESTDIR/.moc
-RCC_DIR = $$DESTDIR/.qrc
-UI_DIR = $$DESTDIR/.ui 
-
+OBJECTS_DIR = $$DESTDIR
+MOC_DIR = $$DESTDIR
+RCC_DIR = $$DESTDIR
+UI_DIR = $$DESTDIR

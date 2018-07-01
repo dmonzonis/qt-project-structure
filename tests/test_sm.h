@@ -6,4 +6,3 @@ class TestSM: public QObject
 private slots:
     void init();
 };
-

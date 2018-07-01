@@ -6,11 +6,4 @@ void TestSM::init() {
     PuterStatMachine psm;
 }
 
-
-
-
-
-
 QTEST_MAIN(TestSM)
-
-

@@ -1,9 +1,6 @@
 include(../defaults.pri)
 
-CONFIG += console
-CONFIG -= app_bundle
-CONFIG  += testlib
-CONFIG += testcase
+QT += testlib
 
 TEMPLATE = app
 
