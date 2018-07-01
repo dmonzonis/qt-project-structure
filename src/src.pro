@@ -9,5 +9,3 @@ TARGET = myapp
 
 SOURCES += myclass.cpp puterstatemachine.cpp
 HEADERS += myclass.h puterstatemachine.h
-
-
