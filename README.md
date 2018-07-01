@@ -9,8 +9,6 @@ Code as described in this guide: http://dragly.org/2014/03/13/new-project-struct
 
 # Changes to structure and build #
 
-- changed to use QT test
+- changed to use Qt GUI forms
+- changed to use Qt test
 - output to build dir
-- run tests with `make check`
-
-
